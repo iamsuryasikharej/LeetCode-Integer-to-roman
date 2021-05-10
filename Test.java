@@ -16,7 +16,7 @@ public class Test {
 		if(number==0 || number >= 4000)
 		{
 			System.out.println("not possible");
-			
+			System.exit(0);
 		}
 		Map<Integer,String> hm=new TreeMap<>(Collections.reverseOrder()) ;
 			
